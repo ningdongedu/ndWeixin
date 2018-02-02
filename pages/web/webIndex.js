@@ -117,6 +117,7 @@ wx.request({
   },
   success: function (res) {
     console.log(res.data)
+    wx.navigateTo({ url: '../web/album' });
   }
   
 })
