@@ -13,7 +13,6 @@ Page({
   },
 
   gotoIndex: function () {
-    console.info("sss");
     wx.navigateTo({ 
       url: '../content/content',
       success:function(res){
@@ -114,11 +113,7 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  gotoAlbum() {
-    console.info("sss");
-  },
+  }
 
   
 })

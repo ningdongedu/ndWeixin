@@ -1,5 +1,16 @@
 <!--pages/content/content.wxml-->
 <text>pages/content/content.wxml</text>
+<swiper indicator-dots="true"  
+        autoplay="true" interval="3000" duration="1000" class="css_swiper">  
+      <block wx:for="{{imgUrls}}">  
+        <swiper-item>  
+           <navigator url="{{item.link}}" hover-class="navigator-hover">  
+            <image src="{{item.url}}" class="css_img1"/>  
+           </navigator>
+        </swiper-item>
+      </block>  
+</swiper>  
+
 <view>
-  
+  <image src='../../image/background_top.png' class="css_img1"></image>
 </view>

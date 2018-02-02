@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    imgUrls:[
+      {
+        url: "../../image/background_top.png"
+      },
+      {
+        url: "../../image/background_top.png"
+      },
+      {
+        url: "../../image/background_top.png"
+      }
+    ]
   },
 
   /**
