@@ -1,10 +1,10 @@
 <view>
     <view class="css_page_top">
         <text class="css_username">欢迎您</text>
-        <text class="css_text-info">开始自己的户外世界</text>
+        <text class="css_text-info">开始自己的户外之旅</text>
         <view class="css_page-btn-wrap">
-            <button class="css_page-btn" bindtap="gotoAlbum">进入花海世界</button>
+            <button class="css_page-btn" bindtap="gotoIndex">进入花海世界</button>
         </view>
-        <text class="css_msg">宁东教育</text>
+        <text class="css_msg">...</text>
     </view>
 </view>

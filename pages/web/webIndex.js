@@ -9,8 +9,20 @@ Page({
   data: {
     motto: 'Hello World',
     userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    hasUserInfo: false
+  },
+
+  gotoIndex: function () {
+    console.info("sss");
+    wx.navigateTo({ 
+      url: '../content/content',
+      success:function(res){
+        console.info(res);
+      },
+      fail:function(res){
+        console.info(res);
+      }
+     });
   },
 
   /**
@@ -45,9 +57,9 @@ Page({
         }
       })
     }
+
   },
   getUserInfo: function (e) {
-    console.log(e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
@@ -107,6 +119,8 @@ Page({
   gotoAlbum() {
     console.info("sss");
   },
+
+  
 })
 
 wx.request({
@@ -116,8 +130,8 @@ wx.request({
     'content-type': 'application/json' // 默认值
   },
   success: function (res) {
-    console.log(res.data)
-    wx.navigateTo({ url: '../web/album' });
+    
+    console.log(res.data);
   }
   
 })

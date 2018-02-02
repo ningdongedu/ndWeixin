@@ -1,13 +1,20 @@
 {
-  "pages":[
+  "pages": [
     "pages/web/webIndex",
-    "pages/logs/logs"
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/content/content"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "宁东教育--花海",
+    "navigationBarTitleText": "花海",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light"
-  }
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
 }
