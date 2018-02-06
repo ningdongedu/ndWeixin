@@ -1,20 +1,38 @@
 <!--pages/content/content.wxml-->
-<swiper indicator-dots="true"  
-        autoplay="true" interval="3000" duration="1000" class="css_swiper">
-      <block wx:for="{{imgUrls}}">  
-        <swiper-item>  
-           <navigator url="{{item.link}}" hover-class="navigator-hover">  
-            <image src="{{item.url}}" class="css_img1"/>  
-           </navigator>
-        </swiper-item>
-      </block>  
-</swiper>  
+<view class="css_body">
+  <swiper indicator-dots="true"  
+      autoplay="true" interval="3000" duration="1000" class="css_swiper">
+    <block wx:for="{{imgUrls}}">  
+      <swiper-item>  
+          <navigator url="{{item.link}}" hover-class="navigator-hover">  
+          <image src="{{item.url}}" class="css_img1"/>  
+          </navigator>
+      </swiper-item>
+    </block>  
+  </swiper>
+  <view>
+    <view class="css_content">
+        <view class="css_title1">一级标题一级标题一级标题标</view>
+        <view class="css_title2">二级标题二级标题二级标题二级标题二级标题二级标题</view>
+    </view>
 
-<view>
-  <textarea>
+    <view class="css_content2">
+        <view class="css_flag1">简介：</view>
+        <view class="css_flag2">
+          二级标题二级标题二级标题二级标题二级标题二级标题
+        </view>
+    </view>
 
-  </textarea>
+    <view class="css_content2">
+        <view class="css_flag1">活动：</view>
+        <view class="css_flag2">
+          活动活动活动活动活动活动活动活动活动活动活动活动活动
+        </view>
+    </view>
+    <!-- 占位  -->
+    <view style="height:150rpx;"></view>
+  </view>
+
+  <button class='address-add' >我要报名</button>
 </view>
-<view>
-  <button class='address-add' >按钮</button>
-</view>
+

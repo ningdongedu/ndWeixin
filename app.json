@@ -4,11 +4,10 @@
     "pages/touchMove/touchMove",
     "pages/content/content",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/detail/detail"
+    "pages/logs/logs"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarBackgroundColor": "#1E90FF",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "花海",
     "backgroundColor": "#eeeeee",
