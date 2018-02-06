@@ -2,7 +2,7 @@
     <view class="css_page_top">
         <text class="css_username">欢迎您</text>
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}"                      background-size="cover"></image>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"                      background-size="cover"></image>
 
         <text class="css_text-info">开始自己小程序</text>
         <view class="css_page-btn-wrap">
