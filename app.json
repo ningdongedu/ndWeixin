@@ -1,10 +1,11 @@
 {
   "pages": [
-    "pages/content/content",
     "pages/web/webIndex",
+    "pages/touchMove/touchMove",
+    "pages/content/content",
     "pages/index/index",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/detail/detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

@@ -14,9 +14,9 @@ Page({
 
   gotoIndex: function () {
     wx.navigateTo({ 
-      url: '../content/content',
+      url: '../touchMove/touchMove',
       success:function(res){
-        console.info(res);
+        // console.info(res);
       },
       fail:function(res){
         console.info(res);

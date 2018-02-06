@@ -5,6 +5,6 @@
         <view class="css_page-btn-wrap">
             <button class="css_page-btn" bindtap="gotoIndex">进入花海世界</button>
         </view>
-        <text class="css_msg">...</text>
+        <text class="css_msg"></text>
     </view>
 </view>
